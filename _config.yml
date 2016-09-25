@@ -5,7 +5,7 @@ title: "jimmdenton"
 description: "James Denton's blog. No warranty implied!"
 keywords: "james denton, ansible, openstack, linux, networking"
 baseurl: "/"
-url: "http://www.jimmdenton.com"
+url: "http://busterswt.github.io"
 # url: "http://127.0.0.1:4000"
 
 # author
@@ -62,7 +62,7 @@ languages:
     flag: 'static/img/flags/United-States.png'
 
 # blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
+img_path: 'http://www.jimmdenton.com/static/img/blog'
 
 # donate
 donate:
