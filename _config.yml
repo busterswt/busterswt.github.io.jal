@@ -3,7 +3,7 @@
 # Website settings
 title: "jimmdenton"
 description: "James Denton's blog. No warranty implied!"
-keywords: "james denton, ansible, openstack, linux, networking"
+keywords: "james denton, ansible, openstack, linux, networking, neutron"
 baseurl: "/"
 url: "http://busterswt.github.io"
 # url: "http://127.0.0.1:4000"
@@ -26,23 +26,23 @@ sections:
     tpl: 'about.html'
     css: ''
 
-  - id: 'career'
-    i18n: 'nav.career'
-    name: 'Career'
-    tpl: 'career.html'
-    css: 'timeline'
+#  - id: 'career'
+#    i18n: 'nav.career'
+#    name: 'Career'
+#    tpl: 'career.html'
+#    css: 'timeline'
 
-  - id: 'skills'
-    i18n: 'nav.skills'
-    name: 'Skills'
-    tpl: 'skills.html'
-    css: 'team'
+#  - id: 'skills'
+#    i18n: 'nav.skills'
+#    name: 'Skills'
+#    tpl: 'skills.html'
+#    css: 'team'
 
-  - id: 'projects'
-    i18n: 'nav.projects'
-    name: 'Projects'
-    tpl: 'projects.html'
-    css: 'project'
+#  - id: 'projects'
+#    i18n: 'nav.projects'
+#    name: 'Projects'
+#    tpl: 'projects.html'
+#    css: 'project'
 
   - id: 'blog'
     i18n: 'nav.blog'
@@ -62,32 +62,28 @@ languages:
     flag: 'static/img/flags/United-States.png'
 
 # blog img path
-img_path: 'http://www.jimmdenton.com/static/img/blog'
+img_path: 'http://jimmdenton.com/static/img/blog'
 
 # donate
-donate:
-  wechat: 'static/img/pay/wechat.png'
-  alipay: 'static/img/pay/alipay.png'
+#donate:
+#  wechat: 'static/img/pay/wechat.png'
+#  alipay: 'static/img/pay/alipay.png'
 
 # comment
-changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
-disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+#changyan:
+#  # appid: cysfY7ULn
+#  # conf: prod_861928934cecb7a18e15bedaed9dae29
+#disqus:
+#  name: jalpc
+#  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # share
 bshare:
   uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
 
-# baidu analytics
-ba:
-  uuid: 317acca9ef9255b934e46371e471431d
-
 # google analytics
-ga:
-  id: UA-73784599-1
+#ga:
+#  id: UA-73784599-1
 
 # Build settings
 encoding: "utf-8"

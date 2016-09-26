@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: <http://busterswt.github.io/sitemap.xml>
